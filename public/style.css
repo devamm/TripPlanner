@@ -8,6 +8,28 @@ body {
   background-color: #C1B5AD;
 }
 
+header{
+	display: flex;
+	justify-content: flex-end;
+	background: orange;
+	border-bottom: 3px solid black;
+	width: 100vw;
+	height: 5vh;
+	top: 0;
+}
+
+nav{
+	
+	display: flex;
+	
+	margin-right: 10px;
+	align-self: center;
+}
+nav > * {
+	padding: 0 5px;
+	text-decoration: none;
+}
+
 #map {
 	height: 100vh;
 	width: 100vw;
